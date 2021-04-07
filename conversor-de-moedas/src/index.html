@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>
+      Imersão Dev - Aula 01
+    </title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">
+        Conversor de moedas
+      </h1>
+      <p class="page-subtitle">
+        Descubra os valores em dolar U$
+      </p>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+    </div>
+    <!-- Abaixo irei construir o formulário para que possamos passar os valores da cotação
+      do dolar e também o preço do nosso PS5!
+    -->
+    <div class="calcula-preco">
+      <div class="dollar-today">
+        <h4>Cotação do Dolar hoje!<h4>
+         <!-- O valor desse elemento é dado pelo JavaScript! -->
+         <p id="valor-dolar"></p>
+      </div>
+      <div class="text-boxes">
+        <form>
+          <label for="preço_ps5">Digite o preço do PS5 em dolares:</label><br>
+          <input type="text" id="preco_ps5" name="preço_ps5"><br>
+          <input type="button" value="Calcular" id="converter" onclick="calcularConversao()">
+        </form>
+        <!-- O valor desse elemento é dado pelo JavaScript! -->
+        <p id="valor-convertido"></p>
+      </div>
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+       <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+  </body>
+</html>

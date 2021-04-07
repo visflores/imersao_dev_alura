@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>
+        Imersão Dev - Aula 04
+    </title>
+</head>
+
+<body>
+    <div class="container" onclick="esconderForms()">
+        <h1 class="page-title">
+            Aluraflix!
+        </h1>
+      <p>
+        Adicione os filmes que já assistiu! 
+        <br>
+        No fim do ano você descobre quantos filmes viu em 2021!
+      </p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo"
+            alt="">
+    </div>
+  
+  
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+  
+  <div class="novo-filme" id="novo-filme">
+      <div class="form-adicionar-filme" id="form-add-filme">
+        
+          <div class="forms">
+
+            <form>
+              <label>Nome do Filme</label><br>
+              <input type="text" id="nome"><br>
+
+              <label>URL do cartaz</label><br>
+              <input type="text" id="url"><br>
+
+              <label>Descrição</label><br>
+              <input type="text" id="descricao"><br>
+
+              <input type="button" id="enviar-filme" value="Enviar!!" onclick="atualizarCatalogo()">
+            </form>
+        </div>  
+      </div>  
+    <h2 onclick="mostrarForms()">Adicionar Filme!</h2>
+  </div>
+  
+  <div class="banco-imagem" id="colecao-imagem" onclick="esconderForms()">
+  </div>
+ 
+</body>
+
+</html>

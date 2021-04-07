@@ -1,0 +1,68 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 854px;
+    background-image: url('https://img.freepik.com/fotos-gratis/textura-de-lousa-de-estilo-grunge_1048-10295.jpg?size=626&ext=jpg');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .charadas {
+		text-align: center;
+		padding: 20px 20px;
+  }
+
+#enviar-resposta {
+	margin: 20px 20px;
+	background-color: #000000;
+  color: #FFFFFF;
+  border-color: #003087;
+  border-width: 1px;
+	height: 25px;
+}
+
+#resposta {
+	height: 25px;
+  background-color: #FFFFFF;
+  border-color: #003087;
+	text-align: center;
+}
+
+#pergunta-charada {
+	font-size: 24px;
+}
+  
+  h2 {
+    font-size:16px;
+    font-weight:bold;
+		color: #FFFFFF;
+		margin: 20px 10px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
